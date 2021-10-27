@@ -7428,6 +7428,13 @@ textarea.form-control-lg {
 
 .bg-dark {
   background-color: #212529 !important;
+  background: linear-gradient(
+      to bottom,
+      rgba(129, 128, 126, 0.493) 0%,
+      rgba(150, 135, 120, 0.521) 100%
+    ),
+    url("../assets/img/d.jpg") ;
+    background-size: 100% 100% !important;
 }
 
 .bg-body {
@@ -10925,7 +10932,7 @@ hr.divider-light {
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
-    margin-right: 620px;
+    margin-right: 105px;
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
