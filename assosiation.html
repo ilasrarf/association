@@ -572,7 +572,7 @@
             <!-- To make this form functional, sign up at-->
             <!-- https://startbootstrap.com/solution/contact-forms-->
             <!-- to get an API token!-->
-            <h4 class="sent-notification"></h4>
+            
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
               <!-- Name input-->
               <div class="form-floating mb-3">
@@ -640,7 +640,7 @@
               <!-- has successfully submitted-->
               <div class="d-none" id="submitSuccessMessage">
                 <div class="text-center mb-3">
-                  <div class="fw-bolder">!تم إرسال الرسالة بنجاح</div>
+                  <div class="fw-bolder"><h4 class="sent-notification"></h4></div>
                   <br />
                 </div>
               </div>
@@ -663,6 +663,7 @@
                 >
                   إرسال
                 </button>
+                
               </div>
             </form>
           </div>
@@ -758,7 +759,7 @@
             },
             success: function (response) {
               $("#contactForm")[0].reset();
-              $(".sent-notification").text("Message Sent Successfully.");
+              $(".sent-notification").text("تم إرسال الرسالة بنجاح!");
             },
           });
         }
