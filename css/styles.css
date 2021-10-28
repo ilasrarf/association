@@ -11034,7 +11034,7 @@ header.masthead h1, header.masthead .h1 {
 /* -------------footer------------------------ */
 
 .sec-footer{
-  background: #1b64eb;
+  background: #212f47;
   direction: rtl;
   text-align: right;
   color: #fff;
@@ -11072,7 +11072,7 @@ header.masthead h1, header.masthead .h1 {
 
 
 
-/*------------------*/
+/*-------footer-----------*/
 .snip1472 {
   position: relative;
   font-size: 20px;
@@ -11120,7 +11120,3 @@ header.masthead h1, header.masthead .h1 {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }
-
-/* foooot */
-
-/*  */
