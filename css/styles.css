@@ -10932,7 +10932,7 @@ hr.divider-light {
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
-    margin-right: 105px;
+    margin-right: 5px;
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
