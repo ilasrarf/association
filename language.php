@@ -1,4 +1,9 @@
 <?php
+$titel_association=array(
+	'ar'=>array('جمعية خطوة للأشخاص في وضعية إعاقة'),
+	'fr'=>array("ASSOCIATION KHOUTWA POUR LES PERSONNES EN SITUATION D'HANDICAPE")
+
+);
 $top_nav=array(
     'ar'=>array('الرئسية',
 				'من نحن',

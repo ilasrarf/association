@@ -16,7 +16,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>جمعية</title>
+    <title><?php echo $titel_association[$language]['0']?></title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
     <!-- Bootstrap Icons-->
