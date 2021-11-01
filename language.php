@@ -13,6 +13,10 @@ $top_nav=array(
 				'Faire un don',
 				'Contactez-nous')
 );
+$deriction=array(
+	'ar'=>array('auto'),
+	'fr'=>array('auto')
+);
 $top_nav_language=array(
 	'ar'=>array('اللغة'),
 	'fr'=>array('Language')
@@ -207,5 +211,9 @@ $footer=array(
     'fr'=>array("Bref résumé",
 				"Association Khatwa pour les handicapés et les ténèbres",
 				"pour nous contacter")
+);
+$button_to_up=array(
+	'ar'=>array('bottom-0 end-0 m-4'),
+	'fr'=>array('bottom-0 start-0 m-4')
 );
 ?>

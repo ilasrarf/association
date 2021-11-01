@@ -42,7 +42,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body>
+  <body dir="<?php echo $deriction[$language]['0']?>">
     <!-- Navigation-->
     <nav
       class="navbar navbar-expand-lg navbar-light fixed-top py-3"
@@ -704,7 +704,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
     <!-- footee end -->
 
     <!-- button to go up -->
-      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-caret-up-fill"></i></button>
+      <button onclick="topFunction()" id="myBtn" class="<?php echo $button_to_up[$language]['0']?>" title="Go to top"><i class="bi bi-caret-up-fill"></i></button>
     <!-- button to go up end -->
 
     <!-- Bootstrap core JS-->
