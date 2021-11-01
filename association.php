@@ -1,4 +1,16 @@
-<!DOCTYPE html>
+<?php
+include('language.php');
+$ar_select='';
+$fr_select='';
+$language='';
+if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['language'])){
+  $ar_select='selected';
+  $language='ar';
+}else{
+  $fr_select='selected';
+  $language='fr';
+}
+?>
 <html lang="ar">
   <head>
     <meta charset="UTF-8" />
@@ -54,22 +66,31 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto my-2 my-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">الرئسية</a>
+              <a class="nav-link" href="#"><?php echo $top_nav[$language]['0']?></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">من نحن</a>
+              <a class="nav-link" href="#about"><?php echo $top_nav[$language]['1']?></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">مجالات التدخل </a>
+              <a class="nav-link" href="#services"><?php echo $top_nav[$language]['2']?></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">الأنشطة</a>
+              <a class="nav-link" href="#portfolio"><?php echo $top_nav[$language]['3']?></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#uu">للتبرع</a>
+              <a class="nav-link" href="#uu"><?php echo $top_nav[$language]['4']?></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">لتواصل معنا</a>
+              <a class="nav-link" href="#contact"><?php echo $top_nav[$language]['5']?></a>
+            </li>
+            <li class="nav-item">
+              
+              <select onchange="set_language() " name="language" id="language">
+			  language
+				
+                <option value="ar" <?php echo $ar_select?>>Ar</option>
+                <option value="fr" <?php echo $fr_select?>>Fr</option>
+              </select>
             </li>
           </ul>
         </div>
@@ -98,7 +119,7 @@
           <div class="col-lg-8 align-self-baseline">
             <p class="text-light fs-5 mb-5"></p>
             <a class="btn third btn-xl border border-secondary" href="#about"
-              >اكتشف المزيد</a
+              ><?php echo $button1[$language]['0']?></a
             >
           </div>
         </div>
@@ -109,18 +130,13 @@
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-8 text-center">
-            <h2 class="text-white mt-0">التعريف بالجمعية</h2>
+            <h2 class="text-white mt-0"><?php echo $about[$language]['0']?></h2>
             <hr class="divider divider-danger" />
             <p class="text-white-75 mb-4 fs-5">
-              جمعية خطوة للمعاقين بجماعة الترابية الدراركة، قيادة الدراكة، هي
-              جمعية تهتم بالأساس على التشخيص و الجرد لمجموعة من الحاجيات و
-              المتطلبات للأشخاص في وضعية إعاقة ، خصوصا و أن الإعاقة تشمل أنواع
-              كثيرة من الصم و البكم و الحركية و الإعاقة الذهنية ... كما أنه كان
-              من أهم أهدافنا هو تحسين الوضعية الإجتماعية للأشخاص في وضعية إعاقة
-              لتعزيز مكانتهم بالإدارات و المؤسسات العمومية و الخاصة
+             <?php echo $about[$language]['1']?>
             </p>
             <a class="btn third btn-xl border border-secondary" href="#services"
-              >للمتابعة إضغط هنا</a
+              ><?php echo $button2[$language]['0']?></a
             >
           </div>
         </div>
@@ -129,12 +145,10 @@
     <!-- Services-->
     <section class="page-section" id="services">
       <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0">مجالات التدخل للجمعية</h2>
+        <h2 class="text-center mt-0"><?php echo $services[$language]['0']?></h2>
         <hr class="divider" />
         <p class="text-center">
-          تبعا لدوافع و ظروف تأسيس الجمعية، فإن المكتب المسير بادر إلى التفكير
-          في تنفيذ مجموعة من التوصيات المنبثقة من خلال الجمع العام التأسيسي، و
-          لذلك شملت مجالات التدخل ما يلي
+          <?php echo $services[$language]['1']?>
         </p>
         <div class="row gx-4 gx-lg-5">
           <div class="col-lg-4 col-md-6 text-center">
@@ -142,15 +156,9 @@
               <div class="mb-2">
                 <i class="bi bi-briefcase fs-1 text-danger"></i>
               </div>
-              <h3 class="h4 mb-2">الميدان التعليمي التربوي</h3>
+              <h3 class="h4 mb-2"><?php echo $services[$language]['2']?></h3>
               <p class="text-muted mb-0">
-                <strong>محو الأمية:</strong> تخصيص دروس محو الأمية لفائدة فئة
-                الأشخاص في وضعية الإعاقة وتجاوزو سن التمدرس، بالإضافة إلى أمهات
-                و أولياء الأطفال المعاقين <br />
-                <strong>التربية غير النظامية:</strong> مواكبة مجموعة من الأشخاص
-                في وضعية الإعاقة بإعادة إدماجهم في الأقسام الدراسية التنسيق مع
-                الجهات و الإدارات الوصية بغية توفير أقسام و أساتذة لفائدة
-                الأطفال المعاقين
+                <?php echo $services[$language]['3']?>
               </p>
             </div>
           </div>
@@ -160,12 +168,9 @@
               <div class="mb-2">
                 <i class="bi bi-heart fs-1 text-danger"></i>
               </div>
-              <h3 class="h4 mb-2">الميدان الصحي و الرعاية</h3>
+              <h3 class="h4 mb-2"><?php echo $services[$language]['4']?></h3>
               <p class="text-muted mb-0">
-                محاولة توفير تجهيزات و آليات ضرورية لحياة الأشخاص في وضعية
-                الإعاقة عبر تنظيم حمالات طبية خاصة بالأشخاص في وضعية الإعاقة
-                مصاحبتهم و مرافقتهم خلال فترات المتابعة الطبية و إعداد ملفات
-                خاصة
+                <?php echo $services[$language]['5']?>
               </p>
             </div>
           </div>
@@ -174,12 +179,9 @@
               <div class="mb-2">
                 <i class="bi bi-recycle fs-1 text-danger"></i>
               </div>
-              <h3 class="h4 mb-2">الميدان التنموي و البيئي</h3>
+              <h3 class="h4 mb-2"><?php echo $services[$language]['6']?></h3>
               <p class="text-muted mb-0">
-                إدماج الأشخاص في وضعية إعاقة بمجال التنمية المستدامة لجعل هذه
-                الفئة شريكا أساسيا في كل المبادرات من شأنها تحقيق تنمية محلية
-                شاملة بلورة مشاريع و أنشطة خاصة بالأشخاص في وضعية إعاقة في مجال
-                المحافظة على البيئة و المحيط الإيكولوجي.
+                <?php echo $services[$language]['7']?>
               </p>
             </div>
           </div>
@@ -187,10 +189,9 @@
           <div class="col-lg-4 col-md-6 text-center">
             <div class="mt-5">
               <div class="mb-2"><i class="bi-globe fs-1 text-danger"></i></div>
-              <h3 class="h4 mb-2">الميدان الإجتماعي</h3>
+              <h3 class="h4 mb-2"><?php echo $services[$language]['8']?></h3>
               <p class="text-muted mb-0">
-                تحسين الوضعية الإجتماعية للأشخاص في وضعية إعاقة تعزيز مكانتهم
-                بالإدارات و المؤسسات العمومية و الخاصة
+                <?php echo $services[$language]['9']?>
               </p>
             </div>
           </div>
@@ -200,11 +201,9 @@
               <div class="mb-2">
                 <i class="bi bi-award fs-1 text-danger"></i>
               </div>
-              <h3 class="h4 mb-2">ميدان التكوين و تقوية القدرات</h3>
+              <h3 class="h4 mb-2"><?php echo $services[$language]['10']?></h3>
               <p class="text-muted mb-0">
-                التكوين و التكوين المستمر لفائدة الأشخاص في وضعية الإعاقة
-                التكوين في مجالات التنمية المحلية، التواصل، إعداد المشاريع، و
-                مجالات أخرى
+                <?php echo $services[$language]['11']?>
               </p>
             </div>
           </div>
@@ -213,11 +212,9 @@
               <div class="mb-2">
                 <i class="bi bi-building fs-1 text-danger"></i>
               </div>
-              <h3 class="h4 mb-2">الميدان الإقتصادي</h3>
+              <h3 class="h4 mb-2"><?php echo $services[$language]['12']?></h3>
               <p class="text-muted mb-0">
-                التكوين و التكوين المستمر لفائدة الأشخاص في وضعية الإعاقة
-                المواكبة و التوجيه لخلق مقاوالت صغرى في إطار المقاول الذاتي أو
-                التعاونيات بإدماج الأشخاص المعاقين عبر التشغيل
+                <?php echo $services[$language]['13']?>
               </p>
             </div>
           </div>
@@ -227,8 +224,9 @@
     <!-- Portfolio-->
     <div id="portfolio">
       <div class="container-fluid p-0">
-        <h2 class="text-center mt-0">صور لمختلف الأنشطة المنجزة</h2>
+        <h2 class="text-center mt-0"><?php echo $portfolio[$language]['0']?></h2>
         <hr class="divider" />
+	<!-- Photos-->
         <div class="row g-0">
           <div class="col-lg-4 col-sm-6">
             <a
@@ -241,18 +239,9 @@
                 alt="..."
               />
               <div class="portfolio-box-caption">
-                <div class="project-category fs-4 text-white-50">زيارة المركز الوطني محمد
-                  السادس للمعاقين بالرباط مركز
-                  التكوين، ومركز الإدماج</div>
+                <div class="project-category fs-4 text-white-50"><?php echo $photos[$language]['0']?></div>
                 <div class="project-name text-light">
-                  ● قبول طلب عقد الشراكة
-                  <br>
-                  ● استقبال حار مع زيارة لكل
-                    مرافق المركز
-                    <br>
-                  ● امكانية إعداد مشاريع مشتركة
-                  لفائدة المعاقين
-
+                  <?php echo $photos[$language]['1']?>
                 </div>
               </div>
             </a>
@@ -269,9 +258,9 @@
                 alt="..."
               />
               <div class="portfolio-box-caption">
-                <div class="project-category fs-4 text-white-50">لقائات</div>
+                <div class="project-category fs-4 text-white-50"><?php echo $photos[$language]['2']?></div>
                 <div class="project-name text-light">
-                  لقاءات تكوينية لفائدة المكلفين بعملية الإحصاء
+                  <?php echo $photos[$language]['3']?>
                 </div>
               </div>
             </a>
@@ -288,8 +277,8 @@
                 alt="..."
               />
               <div class="portfolio-box-caption">
-                <div class="project-category fs-4 text-white-50">إجتماعات</div>
-                <div class="project-name text-light">الجمع العام التأسيسي للجمعية</div>
+                <div class="project-category fs-4 text-white-50"><?php echo $photos[$language]['4']?></div>
+                <div class="project-name text-light"><?php echo $photos[$language]['5']?></div>
               </div>
             </a>
           </div>
@@ -305,11 +294,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  زياراة لمراكز الإدماج
+                  <?php echo $photos[$language]['6']?>
                 </div>
                 <div class="project-name text-light">
-                  زيارة لأحد مرافق وورشات المركز الوطني محمد السادس للمعاقين،
-                  بسلا
+                  <?php echo $photos[$language]['7']?>
                 </div>
               </div>
             </a>
@@ -325,10 +313,8 @@
                 alt="..."
               />
               <div class="portfolio-box-caption">
-                <div class="project-category fs-4 text-white-50">اجتماعات المكتب المسير للجمعية
-                </div>
-                <div class="project-name text-light">فترة مناقشة القانون الأساسي للجمعية قبل
-                  التأسيس
+                <div class="project-category fs-4 text-white-50"><?php echo $photos[$language]['8']?></div>
+                <div class="project-name text-light"><?php echo $photos[$language]['9']?>
                 </div>
               </div>
             </a>
@@ -345,11 +331,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  إجتماعات
+                  <?php echo $photos[$language]['10']?>
                 </div>
                 <div class="project-name text-light">
-                  إجتماعات تحضيرية لتأسيس الجمعية مع إعداد الإستمارة لإحصاء
-                  المعاقين بجماعة الدراركة
+                  <?php echo $photos[$language]['11']?>
                 </div>
               </div>
             </a>
@@ -366,10 +351,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  تحديد الحاجيات الضرورية
+                  <?php echo $photos[$language]['12']?>
                 </div>
                 <div class="project-name text-light">
-                  لقاء تواصلي مع أمهات و أوليات المعاقين بتماعيت الدراركة
+                  <?php echo $photos[$language]['13']?>
                 </div>
               </div>
             </a>
@@ -386,10 +371,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  زياراة لمراكز الإدماج
+                  <?php echo $photos[$language]['14']?>
                 </div>
                 <div class="project-name text-light">
-                  لقاء مع السيد سعيد البقال مدير مركز اإلدماج و المساعدة بالتشغيل بالمركز الوطني محمد السادس للمعاقين
+                  <?php echo $photos[$language]['15']?>
                 </div>
               </div>
             </a>
@@ -407,11 +392,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-3 text-white-50">
-                  إحتفالات
+                  <?php echo $photos[$language]['16']?>
                 </div>
                 <div class="project-name text-light">
-                  مشاركة جمعية روابط الأسرة في الإحتفال باليوم
-                  العالمي للمرأة بالخزانة الجماعية الدراركة
+                  <?php echo $photos[$language]['17']?>
                 </div>
               </div>
             </a>
@@ -429,10 +413,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  التعاون الوطني
+                  <?php echo $photos[$language]['18']?>
                 </div>
                 <div class="project-name text-light">
-                  لقاء مع السيد مندوب التعاون الوطني بأكادير
+                  <?php echo $photos[$language]['19']?>
                 </div>
               </div>
             </a>
@@ -449,10 +433,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  ورشات
+                  <?php echo $photos[$language]['20']?>
                 </div>
                 <div class="project-name text-light">
-                  ورشة الجبص
+                  <?php echo $photos[$language]['21']?>
                 </div>
               </div>
             </a>
@@ -469,10 +453,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  لقائات
+                  <?php echo $photos[$language]['22']?>
                 </div>
                 <div class="project-name text-light">
-                  ورشة التجهيزات الطبية
+                  <?php echo $photos[$language]['23']?>
                 </div>
               </div>
             </a>
@@ -489,11 +473,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  لقائات
+                  <?php echo $photos[$language]['24']?>
                 </div>
                 <div class="project-name text-light">
-                  لقاء مع السيد مدير دار الشباب
-                  الحي الحسني بأكادير
+                  <?php echo $photos[$language]['25']?>
                 </div>
               </div>
             </a>
@@ -510,11 +493,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  الإجتماعات
+                  <?php echo $photos[$language]['26']?>
                 </div>
                 <div class="project-name text-light">
-                  مائدة مستديرة بدار الحي ابن خلدون أكادير
-                  حول إكراهات العمل الجمعوي
+                  <?php echo $photos[$language]['27']?>
                 </div>
               </div>
             </a>
@@ -531,10 +513,10 @@
               />
               <div class="portfolio-box-caption">
                 <div class="project-category fs-4 text-white-50">
-                  زياراة
+                  <?php echo $photos[$language]['28']?>
                 </div>
                 <div class="project-name text-light">
-                  زيارة لدار الشباب أورير
+                  <?php echo $photos[$language]['29']?>
                 </div>
               </div>
             </a>
@@ -546,8 +528,8 @@
     <!-- Call to action-->
     <section class="page-section bg-dark text-white" id="uu">
       <div class="container px-4 px-lg-5 text-center">
-        <h2 class="mb-4 text-center">للتبرع</h2>
-        <p class="fs-2 text-center">رقم الحساب البنكي</p>
+        <h2 class="mb-4 text-center"><?php echo $call_to_action[$language]['0']?></h2>
+        <p class="fs-2 text-center"><?php echo $call_to_action[$language]['1']?></p>
         <p class="fs-1 text-center">0/00008225421</p>
       </div>
     </section>
@@ -556,10 +538,10 @@
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-lg-8 col-xl-6 text-center">
-            <h2 class="mt-0">للتواصل معنا</h2>
+            <h2 class="mt-0"><?php echo $contact[$language]['0']?></h2>
             <hr class="divider" />
             <p class="text-muted mb-5">
-              أرسلوا لنا رسائلكم وسنردوا عليكم في أقرب وقت ممكن
+              <?php echo $contact[$language]['1']?>
             </p>
           </div>
         </div>
@@ -572,7 +554,7 @@
             <!-- To make this form functional, sign up at-->
             <!-- https://startbootstrap.com/solution/contact-forms-->
             <!-- to get an API token!-->
-            
+            	
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
               <!-- Name input-->
               <div class="form-floating mb-3">
@@ -583,9 +565,9 @@
                   placeholder="Enter your name..."
                   data-sb-validations="required"
                 />
-                <label for="name">الإسم الكامل</label>
+                <label for="name"><?php echo $contact[$language]['2']?></label>
                 <div class="invalid-feedback" data-sb-feedback="name:required">
-                  يجب أن تدخل إسمك الكامل
+                  <?php echo $contact[$language]['3']?>
                 </div>
               </div>
               <!-- Email address input-->
@@ -597,12 +579,12 @@
                   placeholder="name@example.com"
                   data-sb-validations="required,email"
                 />
-                <label for="email">البريد الإلكتروني</label>
+                <label for="email"><?php echo $contact[$language]['4']?></label>
                 <div class="invalid-feedback" data-sb-feedback="email:required">
-                  يجب أن تدخل البريد الإلكتروني
+                  <?php echo $contact[$language]['5']?>
                 </div>
                 <div class="invalid-feedback" data-sb-feedback="email:email">
-                  عنوان البريد الالكتروني الذي أدخلته لا يبدو صحيحا
+                  <?php echo $contact[$language]['6']?>
                 </div>
               </div>
               <!-- Phone number input-->
@@ -614,9 +596,9 @@
                   placeholder="(123) 456-7890"
                   data-sb-validations="required"
                 />
-                <label for="phone">رقم الهاتف</label>
+                <label for="phone"><?php echo $contact[$language]['7']?></label>
                 <div class="invalid-feedback" data-sb-feedback="phone:required">
-                  يجب أن تدخل رقم الهاتف
+                  <?php echo $contact[$language]['8']?>
                 </div>
               </div>
               <!-- Message input-->
@@ -629,9 +611,9 @@
                   style="height: 10rem"
                   data-sb-validations="required"
                 ></textarea>
-                <label for="body">الرسالة</label>
+                <label for="body"><?php echo $contact[$language]['9']?></label>
                 <div class="invalid-feedback" data-sb-feedback="body:required">
-                  يجب أن تدخل نص للرسالة
+                  <?php echo $contact[$language]['10']?>
                 </div>
               </div>
               <!-- Submit success message-->
@@ -650,7 +632,7 @@
               <!-- an error submitting the form-->
               <div class="d-none" id="submitErrorMessage">
                 <div class="text-center text-danger mb-3">
-                  !خطأ في إرسال الرسالة
+                  <?php echo $contact[$language]['11']?>
                 </div>
               </div>
               <!-- Submit Button-->
@@ -661,7 +643,7 @@
                   type="submit"
                   onclick="sendEmail()"
                 >
-                  إرسال
+                  <?php echo $contact[$language]['12']?>
                 </button>
                 
               </div>
@@ -677,10 +659,9 @@
               <div class="col">
                   <div class="card desc-box my-4">
                       <div class="card-body">
-                          <div class="card-title">نبذة مخطصرة</div>
+                          <div class="card-title"><?php echo $footer[$language]['0']?></div>
                           <div class="card-text">
-                            جمعية خطوة للمعاقين الدراركة جمعية فتية اسست يوم 10 شتنبر 2016 من
-                             طرف مجموعة من الشباب منهم ذوي الاحتياجات للدفاع عن حقوقهم وابراز ذاتهم
+                            <?php echo $footer[$language]['1']?>
                           </div>
                       </div>
                   </div><!--.card-->
@@ -688,7 +669,7 @@
               <div class="col">
                   <div class="card desc-box my-4">
                       <div class="card-body">
-                          <div class="card-title">للتواصل معنا</div>
+                          <div class="card-title"><?php echo $footer[$language]['2']?></div>
                           <div class="card-text">
                               <div class="row">
                                   <div class="col">
@@ -765,7 +746,7 @@
             },
             success: function (response) {
               $("#contactForm")[0].reset();
-              $(".sent-notification").text("تم إرسال الرسالة بنجاح!");
+              $(".sent-notification").text("<?php echo $contact[$language]['13']?>");
             },
           });
         }
@@ -779,6 +760,13 @@
 
         return true;
       }
+    </script>
+    <!--language-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+    <script>
+      function set_language() {
+        var language=jQuery('#language').val();
+        window.location.href='http://localhost/php/association.php?language='+language;}
     </script>
   </body>
 </html>
