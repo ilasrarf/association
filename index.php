@@ -695,8 +695,8 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
                   <h5>جمعية خطوة للأشخاص في وضعية إعاقة</h5>
                   <h5>Association Khatwa pour les personnes handicapées</h5>
                   <br class="clearfix">
-                  <a href="https://www.facebook.com/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%AE%D8%B7%D9%88%D8%A9-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D9%82%D9%8A%D9%86-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B1%D9%83%D8%A9-636736269826415/" class="snip1472"><i class="bi bi-facebook"></i></i></a>
-                  <a href="#" class="snip1472"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.facebook.com/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%AE%D8%B7%D9%88%D8%A9-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D9%82%D9%8A%D9%86-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B1%D9%83%D8%A9-636736269826415/" class="snip1472"><i class="bi bi-facebook" style="position: absolute;top: 12px;left:13px;"></i></i></a>
+                  <a href="" class="snip1472"><i class="bi bi-instagram" style="position: absolute;top: 12px;left:13px;"></i></a>
               </div><!--.col-->
           </div><!--.row-->
       </div>
@@ -713,10 +713,6 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
@@ -761,7 +757,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
       function set_language() {
         var language=jQuery('#language').val();
         window.location.href='http://localhost/association/index.php?language='+language;
-        }
+      }
     </script>
   </body>
 </html>
