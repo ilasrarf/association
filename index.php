@@ -11,12 +11,12 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
   $language='fr';
 }
 ?>
-<html lang="ar">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>جمعية خطوة للمعاقين الدراركة</title>
+    <title>جمعية</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
     <!-- Bootstrap Icons-->
@@ -84,13 +84,11 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
               <a class="nav-link" href="#contact"><?php echo $top_nav[$language]['5']?></a>
             </li>
             <li class="nav-item">
-              
+            <a class="nav-link"><?php echo $top_nav_language[$language]['0']?>
               <select onchange="set_language() " name="language" id="language">
-			  language
-				
                 <option value="ar" <?php echo $ar_select?>>Ar</option>
                 <option value="fr" <?php echo $fr_select?>>Fr</option>
-              </select>
+              </select></a>
             </li>
           </ul>
         </div>
@@ -720,7 +718,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript">
       function sendEmail() {
         var name = $("#name");
@@ -760,13 +758,10 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
 
         return true;
       }
-    </script>
-    <!--language-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
-    <script>
       function set_language() {
         var language=jQuery('#language').val();
-        window.location.href='http://localhost/php/association.php?language='+language;}
+        window.location.href='http://localhost/association/index.php?language='+language;
+        }
     </script>
   </body>
 </html>
