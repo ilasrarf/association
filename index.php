@@ -83,13 +83,27 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
             <li class="nav-item">
               <a class="nav-link" href="#contact"><?php echo $top_nav[$language]['5']?></a>
             </li>
+            <!--Dropdown 1-->
             <li class="nav-item">
-            <a class="nav-link"><?php echo $top_nav_language[$language]['0']?>
-              <select onchange="set_language() " name="language" id="language">
+            
+              <select class="btn btn-primary btn-sm" onchange="set_language() " name="language" id="language">
                 <option value="ar" <?php echo $ar_select?>>Ar</option>
                 <option value="fr" <?php echo $fr_select?>>Fr</option>
-              </select></a>
+              </select>
+            
             </li>
+            <!--fin dropdown 1-->
+            <!--Dropdown 2-->
+            <div class="dropdown nav-item">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" 
+              onchange="set_language() " name="language" id="language">
+              <li value="ar" <?php echo $ar_select?>><a class="dropdown-item" ><img src="assets/img/morocco.png"><?php echo $dropdown[$language]['0']?></a></li>
+              <li value="fr" <?php echo $fr_select?>><a class="dropdown-item" ><img src="assets/img/france.png"><?php echo $dropdown[$language]['1']?></a></li>
+            </ul>
+          </div>
+          <!--fin dropdown 2-->
           </ul>
         </div>
       </div>

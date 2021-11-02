@@ -18,6 +18,10 @@ $top_nav=array(
 				'Faire un don',
 				'Contactez-nous')
 );
+$dropdown=array(
+	'ar'=>array('العربية','الفرنسية'),
+	'fr'=>array('Arabe','Français')
+);
 $deriction=array(
 	'ar'=>array('auto'),
 	'fr'=>array('auto')
