@@ -84,11 +84,12 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
               <a class="nav-link" href="#contact"><?php echo $top_nav[$language]['5']?></a>
             </li>
             <li class="nav-item">
-            <a class="nav-link"><?php echo $top_nav_language[$language]['0']?>
-              <select onchange="set_language() " name="language" id="language">
+            
+              <select class="btn btn-primary btn-sm" onchange="set_language() " name="language" id="language">
                 <option value="ar" <?php echo $ar_select?>>Ar</option>
                 <option value="fr" <?php echo $fr_select?>>Fr</option>
-              </select></a>
+              </select>
+            
             </li>
           </ul>
         </div>
@@ -545,14 +546,6 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
           <div class="col-lg-6">
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
-            	
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
               <!-- Name input-->
               <div class="form-floating mb-3">
