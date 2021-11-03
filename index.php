@@ -85,8 +85,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
             </li>
              <!--Dropdown 2-->
             <div class="dropdown nav-item mx-0 ">
-              <button class="btn globe2 bi bi-globe2 rounded-pill " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-               <?php echo $top_nav_language[$language]['0']?>
+              <button class="btn globe2 rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-caret-down-fill"></i><i class="bi bi-globe2"></i>
               </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" 
               onchange="set_language() " name="language" id="language">
@@ -650,13 +649,13 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
     </section>
     <!-- Footer-->
     <section class="container-fluid sec-footer">
-      <div class="container">
+      <div class="container" dir="<?php echo $footer_dir[$language]['0']?>">
           <div class="row">
               <div class="col">
                   <div class="card desc-box my-4">
                       <div class="card-body">
-                          <div class="card-title"><?php echo $footer[$language]['0']?></div>
-                          <div class="card-text">
+                          <div class="card-title text-center"><?php echo $footer[$language]['0']?></div>
+                          <div class="card-text" dir="<?php echo $footer_dir[$language]['0']?>">
                             <?php echo $footer[$language]['1']?>
                           </div>
                       </div>
@@ -665,8 +664,8 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
               <div class="col">
                   <div class="card desc-box my-4">
                       <div class="card-body">
-                          <div class="card-title"><?php echo $footer[$language]['2']?></div>
-                          <div class="card-text">
+                          <div class="card-title text-center"><?php echo $footer[$language]['2']?></div>
+                          <div class="card-text" dir="<?php echo $footer_dir[$language]['0']?>">
                               <div class="row">
                                   <div class="col">
                                     <i class="bi bi-telephone-fill"></i>
@@ -682,7 +681,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
                               <div class="row">
                                   <div class="col">
                                     <i class="bi bi-envelope-fill"></i>
-                                      <span>info@dsdsdsds.ir</span>
+                                      <span>info@gmail.com</span>
                                   </div><!--.col-->
                               </div><!--.row-->
                           </div><!--.card-text-->
@@ -691,7 +690,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
               </div><!--.col-->
               <div class="col text-center my-5">
                   <h5>جمعية خطوة للأشخاص في وضعية إعاقة</h5>
-                  <h5>Association Khatwa pour les personnes handicapées</h5>
+                  <h5>ASSOCIATION KHOUTWA POUR LES PERSONNES EN SITUATION D'HANDICAPE</h5>
                   <br class="clearfix">
                   <a href="https://www.facebook.com/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%AE%D8%B7%D9%88%D8%A9-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D9%82%D9%8A%D9%86-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B1%D9%83%D8%A9-636736269826415/" class="snip1472"><i class="bi bi-facebook" style="position: absolute;top: 12px;left:13px;"></i></i></a>
                   <a href="" class="snip1472"><i class="bi bi-instagram" style="position: absolute;top: 12px;left:13px;"></i></a>

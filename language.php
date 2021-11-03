@@ -26,9 +26,13 @@ $deriction=array(
 	'ar'=>array('auto'),
 	'fr'=>array('auto')
 );
+$footer_dir=array(
+	'ar'=>array('rtl'),
+	'fr'=>array('ltr')
+);
 $top_nav_language=array(
 	'ar'=>array('اللغة'),
-	'fr'=>array('Language')
+	'fr'=>array('Langue')
 );
 
 $button1=array(
@@ -217,9 +221,9 @@ $footer=array(
     'ar'=>array('نبذة مختصرة',
 				'جمعية خطوة للمعاقين الدراركة جمعية فتية اسست يوم 10 شتنبر 2016 من طرف مجموعة من الشباب منهم ذوي الاحتياجات للدفاع عن حقوقهم وابراز ذاتهم',
 				'للتواصل معنا'),
-    'fr'=>array("Bref résumé",
-				"Association Khatwa pour les handicapés et les ténèbres",
-				"pour nous contacter")
+    'fr'=>array("BREF RÉSUMÉ",
+				"ASSOCIATION KHOTWA pour les personnes en situation de handicap, fondée le 10 novembre 2016 par un groupe de jeunes ayant besoin de défendre leurs droits et de se mettre en valeur",
+				"POUR NOUS CONTACTER")
 );
 $button_to_up=array(
 	'ar'=>array('bottom-0 end-0 m-4'),

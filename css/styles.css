@@ -11034,7 +11034,6 @@ header.masthead h1, header.masthead .h1 {
 
 .sec-footer{
   background: #212f47;
-  direction: rtl;
   text-align: right;
   color: #fff;
   padding-top: 2.5rem;
@@ -11046,7 +11045,7 @@ header.masthead h1, header.masthead .h1 {
 }
 .sec-footer .desc-box .card-title::after{
   content: ' ';
-  background: #ffffff;
+  background: #dd3737d3;
   display: block;
   width: 95%;
   height: 0.2rem;
@@ -11058,7 +11057,6 @@ header.masthead h1, header.masthead .h1 {
 }
 .sec-sub-footer{
   background: #f2f2f4;
-  direction: rtl;
   text-align: right;
   color: #000;
   padding-top: 1.5rem;
