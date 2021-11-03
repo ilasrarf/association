@@ -64,7 +64,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <ul class="navbar-nav ms-0 my-2 my-lg-0 ml-lg-auto align-items-start align-items-lg-center">
             <li class="nav-item">
               <a class="nav-link" href="#"><?php echo $top_nav[$language]['0']?></a>
             </li>
@@ -83,28 +83,20 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
             <li class="nav-item">
               <a class="nav-link" href="#contact"><?php echo $top_nav[$language]['5']?></a>
             </li>
-            <!--Dropdown 1-->
-            <li class="nav-item">
-            
-              <select class="btn btn-primary btn-sm" onchange="set_language() " name="language" id="language">
-                <option value="ar" <?php echo $ar_select?>>Ar</option>
-                <option value="fr" <?php echo $fr_select?>>Fr</option>
-              </select>
-            
-            </li>
-            <!--fin dropdown 1-->
-            <!--Dropdown 2-->
-            <div class="dropdown nav-item">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             <!--Dropdown 2-->
+            <div class="dropdown nav-item mx-0 ">
+              <button class="btn globe2 bi bi-globe2 rounded-pill " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+               <?php echo $top_nav_language[$language]['0']?>
               </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" 
               onchange="set_language() " name="language" id="language">
-              <li value="ar" <?php echo $ar_select?>><a class="dropdown-item" ><img src="assets/img/morocco.png"><?php echo $dropdown[$language]['0']?></a></li>
-              <li value="fr" <?php echo $fr_select?>><a class="dropdown-item" ><img src="assets/img/france.png"><?php echo $dropdown[$language]['1']?></a></li>
+              <li><a href="?language=ar" class="dropdown-item text-center" ><img src="assets/img/morocco.png"> <?php echo $dropdown[$language]['0']?></a></li>
+              <li><a href="?language=fr" class="dropdown-item text-center" ><img src="assets/img/france.png"> <?php echo $dropdown[$language]['1']?></a></li>
             </ul>
           </div>
           <!--fin dropdown 2-->
           </ul>
+         
         </div>
       </div>
     </nav>
@@ -762,7 +754,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
       }
       function set_language() {
         var language=jQuery('#language').val();
-        window.location.href='https://assosiation-hkoutwa.herokuapp.com/?language='+language;
+        window.location.href='http://localhost/association/index.php?language='+language;
       }
     </script>
   </body>
