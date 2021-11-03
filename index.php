@@ -754,7 +754,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
       }
       function set_language() {
         var language=jQuery('#language').val();
-        window.location.href='http://localhost/association/index.php?language='+language;
+        window.location.href='https://assosiation-hkoutwa.herokuapp.com/?language='+language;
       }
     </script>
   </body>
