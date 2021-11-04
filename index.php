@@ -674,7 +674,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
                               <div class="row">
                                   <div class="col">
                                     <i class="bi bi-geo-alt-fill"></i>
-                                      <span>الجماعة الترابية الدراركة، قيادة الدراكة جهة سوس ماسة، عمالة أكادير إداوتنان</span>
+                                      <span><?php echo $footer[$language]['3']?></span>
                                   </div><!--.col-->
                               </div><!--.row-->
                               <div class="row">

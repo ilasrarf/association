@@ -220,10 +220,10 @@ $contact=array(
 $footer=array(
     'ar'=>array('نبذة مختصرة',
 				'جمعية خطوة للمعاقين الدراركة جمعية فتية اسست يوم 10 شتنبر 2016 من طرف مجموعة من الشباب منهم ذوي الاحتياجات للدفاع عن حقوقهم وابراز ذاتهم',
-				'للتواصل معنا'),
+				'للتواصل معنا','الجماعة الترابية الدراركة، قيادة الدراكة جهة سوس ماسة، عمالة أكادير إداوتنان'),
     'fr'=>array("BREF RÉSUMÉ",
 				"ASSOCIATION KHOTWA pour les personnes en situation de handicap, fondée le 10 novembre 2016 par un groupe de jeunes ayant besoin de défendre leurs droits et de se mettre en valeur",
-				"POUR NOUS CONTACTER")
+				"POUR NOUS CONTACTER","Commune Territoriale Drarka,Caidat Drarka de la Région Souss-Massa,Préfecture d'Agadir Idda Outanane")
 );
 $button_to_up=array(
 	'ar'=>array('bottom-0 end-0 m-4'),
