@@ -85,8 +85,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
             </li>
              <!--Dropdown 2-->
             <div class="dropdown nav-item mx-0 ">
-              <button class="btn globe2 rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-caret-down-fill"></i><i class="bi bi-globe2"></i>
-              </button>
+              <button class="btn globe2 rounded-pill  dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-globe2"></i> </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" 
               onchange="set_language() " name="language" id="language">
               <li><a href="?language=ar" class="dropdown-item text-center" ><img src="assets/img/morocco.png"> <?php echo $dropdown[$language]['0']?></a></li>
