@@ -1,121 +1,121 @@
- Que sont les cookies ?
+ Que sont les cookies ?<br>
 
 
-Un "cookie" est un petit élément d'information stocké sur votre appareil lorsque vous visitez un site web. Le cookie signifie que le site se souviendra de vous et de la façon dont vous avez utilisé le site à chaque fois que vous reviendrez. Un cookie peut être un cookie "persistant" ou "de session".  Un cookie "persistant" restera pendant une période de temps définie pour ce cookie. Un cookie "de session" n'est attribué que pour la durée de votre visite sur notre site web et expire automatiquement lorsque vous fermez votre navigateur. Si vous souhaitez en savoir plus sur les cookies, rendez-vous sur le site abouttcookies.org ou allaboutcookies.org (veuillez noter que ces liens ne sont pas gérés par nous et peuvent ouvrir une nouvelle fenêtre ou un nouvel onglet de votre navigateur). Si vous êtes dans l'Union européenne, vous pouvez également trouver plus d'informations sur le site www.youronlinechoices.com/uk.
+Un "cookie" est un petit élément d'information stocké sur votre appareil lorsque vous visitez un site web. Le cookie signifie que le site se souviendra de vous et de la façon dont vous avez utilisé le site à chaque fois que vous reviendrez. Un cookie peut être un cookie "persistant" ou "de session".  Un cookie "persistant" restera pendant une période de temps définie pour ce cookie. Un cookie "de session" n'est attribué que pour la durée de votre visite sur notre site web et expire automatiquement lorsque vous fermez votre navigateur. Si vous souhaitez en savoir plus sur les cookies, rendez-vous sur le site abouttcookies.org ou allaboutcookies.org (veuillez noter que ces liens ne sont pas gérés par nous et peuvent ouvrir une nouvelle fenêtre ou un nouvel onglet de votre navigateur). Si vous êtes dans l'Union européenne, vous pouvez également trouver plus d'informations sur le site www.youronlinechoices.com/uk.<br>
 
 
 
-Quelques-unes des technologies de suivi utilisées sur le site comprennent, sans s'y limiter, les éléments suivants (il peut également y avoir des technologies ou des méthodes de suivi développées ultérieurement qui ne sont pas mentionnées ici) :
+Quelques-unes des technologies de suivi utilisées sur le site comprennent, sans s'y limiter, les éléments suivants (il peut également y avoir des technologies ou des méthodes de suivi développées ultérieurement qui ne sont pas mentionnées ici) :<br>
 
 
 
-Cookies et stockage local. Les cookies sont de petits fichiers contenant une chaîne de caractères qui sont envoyés au navigateur de votre appareil pour identifier votre navigateur de manière unique ou pour stocker des informations sur votre appareil. Notre site peut utiliser des cookies HTTP, des cookies HTML5, des cookies Flash et d'autres types de technologies de cookies pour stocker des informations sur le stockage local. Chaque site web peut envoyer son propre cookie à votre navigateur.
+Cookies et stockage local. Les cookies sont de petits fichiers contenant une chaîne de caractères qui sont envoyés au navigateur de votre appareil pour identifier votre navigateur de manière unique ou pour stocker des informations sur votre appareil. Notre site peut utiliser des cookies HTTP, des cookies HTML5, des cookies Flash et d'autres types de technologies de cookies pour stocker des informations sur le stockage local. Chaque site web peut envoyer son propre cookie à votre navigateur.<br>
 
-Pixel Tags/balises web. Une balise de pixel ou une balise web est un petit fichier graphique qui nous permet, ainsi qu'à des tiers, de surveiller l'utilisation des services et de collecter des données d'utilisation. Il peut recueillir des informations telles que l'adresse IP de l'appareil qui a téléchargé la page sur laquelle la balise apparaît, l'URL de la page sur laquelle la balise apparaît, l'heure (et la durée) à laquelle la page contenant la balise a été consultée, le type de navigateur qui a récupéré la balise pixel, et le numéro d'identification de tout cookie précédemment placé par ce serveur sur votre ordinateur.
+Pixel Tags/balises web. Une balise de pixel ou une balise web est un petit fichier graphique qui nous permet, ainsi qu'à des tiers, de surveiller l'utilisation des services et de collecter des données d'utilisation. Il peut recueillir des informations telles que l'adresse IP de l'appareil qui a téléchargé la page sur laquelle la balise apparaît, l'URL de la page sur laquelle la balise apparaît, l'heure (et la durée) à laquelle la page contenant la balise a été consultée, le type de navigateur qui a récupéré la balise pixel, et le numéro d'identification de tout cookie précédemment placé par ce serveur sur votre ordinateur.<br>
 
-Scripts intégrés. Un script intégré est un code de programmation conçu pour recueillir des informations sur vos interactions avec le site, comme les liens sur lesquels vous cliquez.
+Scripts intégrés. Un script intégré est un code de programmation conçu pour recueillir des informations sur vos interactions avec le site, comme les liens sur lesquels vous cliquez.<br>
 
-ETag, ou balise d'entité. Un Etag ou entity tag est une caractéristique du cache dans les navigateurs. Il s'agit d'un identifiant opaque attribué par un serveur web à une version spécifique d'une ressource trouvée à une URL.
+ETag, ou balise d'entité. Un Etag ou entity tag est une caractéristique du cache dans les navigateurs. Il s'agit d'un identifiant opaque attribué par un serveur web à une version spécifique d'une ressource trouvée à une URL.<br>
 
-Empreinte digitale du navigateur. Il s'agit de la collecte et de l'analyse des informations de votre appareil, telles que, sans limitation, votre système d'exploitation, les plug-ins, les polices système et d'autres données, à des fins d'identification.
+Empreinte digitale du navigateur. Il s'agit de la collecte et de l'analyse des informations de votre appareil, telles que, sans limitation, votre système d'exploitation, les plug-ins, les polices système et d'autres données, à des fins d'identification.<br>
 
-Technologies de reconnaissance. Ce sont des technologies, y compris l'application de probabilités statistiques à des ensembles de données, qui tentent de reconnaître ou de faire des suppositions sur les utilisateurs et les appareils (par exemple, qu'un utilisateur de plusieurs appareils est le même utilisateur).
+Technologies de reconnaissance. Ce sont des technologies, y compris l'application de probabilités statistiques à des ensembles de données, qui tentent de reconnaître ou de faire des suppositions sur les utilisateurs et les appareils (par exemple, qu'un utilisateur de plusieurs appareils est le même utilisateur).<br>
 
-LiveRamp. Lorsque vous utilisez notre site web, nous partageons avec notre partenaire, LiveRamp Inc. et les sociétés de son groupe ("LiveRamp"), les informations que nous pouvons recueillir auprès de vous, telles que votre adresse électronique (sous forme hachée, dépersonnalisée), votre adresse IP ou des informations sur votre navigateur ou votre système d'exploitation. LiveRamp peut utiliser un cookie sur votre navigateur et faire correspondre les informations que vous partagez avec ses bases de données marketing en ligne et hors ligne et celles de ses partenaires publicitaires afin de créer un lien entre votre navigateur et les informations contenues dans ces autres bases de données. Nous pouvons également partager des adresses électroniques hachées et désidentifiées, des adresses IP et des identifiants publicitaires avec LiveRamp, qui utilise ces informations pour créer un lien entre votre appareil et ses bases de données. Ce lien peut être partagé par nos partenaires dans le monde entier afin de permettre un contenu ou une publicité basés sur les intérêts tout au long de votre expérience en ligne (par exemple, entre appareils, sur le web, par courriel et dans l'application, etc. ) par des tiers non affiliés à notre site web. Ces tiers peuvent à leur tour relier d'autres informations démographiques ou d'intérêt à votre navigateur.
+LiveRamp. Lorsque vous utilisez notre site web, nous partageons avec notre partenaire, LiveRamp Inc. et les sociétés de son groupe ("LiveRamp"), les informations que nous pouvons recueillir auprès de vous, telles que votre adresse électronique (sous forme hachée, dépersonnalisée), votre adresse IP ou des informations sur votre navigateur ou votre système d'exploitation. LiveRamp peut utiliser un cookie sur votre navigateur et faire correspondre les informations que vous partagez avec ses bases de données marketing en ligne et hors ligne et celles de ses partenaires publicitaires afin de créer un lien entre votre navigateur et les informations contenues dans ces autres bases de données. Nous pouvons également partager des adresses électroniques hachées et désidentifiées, des adresses IP et des identifiants publicitaires avec LiveRamp, qui utilise ces informations pour créer un lien entre votre appareil et ses bases de données. Ce lien peut être partagé par nos partenaires dans le monde entier afin de permettre un contenu ou une publicité basés sur les intérêts tout au long de votre expérience en ligne (par exemple, entre appareils, sur le web, par courriel et dans l'application, etc. ) par des tiers non affiliés à notre site web. Ces tiers peuvent à leur tour relier d'autres informations démographiques ou d'intérêt à votre navigateur.<br>
 
-Flash.  Un cookie Flash est un fichier de données placé sur un appareil via le plug-in Adobe Flash qui peut être intégré ou téléchargé par vous sur votre appareil. Ces cookies peuvent être utilisés à des fins diverses, notamment pour activer une fonction Flash et mémoriser vos préférences.
+Flash.  Un cookie Flash est un fichier de données placé sur un appareil via le plug-in Adobe Flash qui peut être intégré ou téléchargé par vous sur votre appareil. Ces cookies peuvent être utilisés à des fins diverses, notamment pour activer une fonction Flash et mémoriser vos préférences.<br>
 
 
 
 
 
-Comment nous utilisons les cookies
+Comment nous utilisons les cookies<br>
 
 
 
-Nous utilisons les cookies pour faire plusieurs choses. Par exemple, les cookies sont utilisés pour activer certaines fonctions du site, renforcer la sécurité et détecter les fraudes, améliorer la fonctionnalité du site, mémoriser vos préférences ou compter le nombre de personnes qui consultent un site web. Nous les utilisons également pour garder une trace de ce que vous avez fait sur le site et pour rendre la publicité en ligne plus pertinente pour vous.
+Nous utilisons les cookies pour faire plusieurs choses. Par exemple, les cookies sont utilisés pour activer certaines fonctions du site, renforcer la sécurité et détecter les fraudes, améliorer la fonctionnalité du site, mémoriser vos préférences ou compter le nombre de personnes qui consultent un site web. Nous les utilisons également pour garder une trace de ce que vous avez fait sur le site et pour rendre la publicité en ligne plus pertinente pour vous.<br>
 
 
-Nous recevons des données de votre part dans le cadre de la connexion de communication elle-même par le biais du message d'accueil électronique standard entre votre ordinateur et nos serveurs. Ces informations comprennent souvent le routage du réseau (d'où vous venez), des informations sur l'équipement (type de navigateur), l'adresse du protocole Internet, la date et l'heure. D'autres parties du site utilisent des cookies (y compris les formulaires d'inscription) pour recueillir des informations sur votre utilisation du site et pour faciliter les visites ultérieures. Les cookies du site peuvent recueillir les informations suivantes : un identifiant unique, les préférences de l'utilisateur et les informations de profil utilisées pour personnaliser le contenu qui est affiché.
+Nous recevons des données de votre part dans le cadre de la connexion de communication elle-même par le biais du message d'accueil électronique standard entre votre ordinateur et nos serveurs. Ces informations comprennent souvent le routage du réseau (d'où vous venez), des informations sur l'équipement (type de navigateur), l'adresse du protocole Internet, la date et l'heure. D'autres parties du site utilisent des cookies (y compris les formulaires d'inscription) pour recueillir des informations sur votre utilisation du site et pour faciliter les visites ultérieures. Les cookies du site peuvent recueillir les informations suivantes : un identifiant unique, les préférences de l'utilisateur et les informations de profil utilisées pour personnaliser le contenu qui est affiché.<br>
 
 
 
-Les cookies eux-mêmes ne contiennent pas d'informations permettant de vous identifier personnellement ("IPI"). Ils ne possèdent qu'un identifiant alphanumérique unique qui se trouve sur votre navigateur. Et dans de nombreux cas, nous ne serons pas en mesure de vous renvoyer les informations que nous recueillons en utilisant un cookie. Ils peuvent toutefois nous permettre de relier ces informations à vous et à vos données personnelles, par exemple lorsque vous vous connectez ou choisissez de vous inscrire à un bulletin d'information.
+Les cookies eux-mêmes ne contiennent pas d'informations permettant de vous identifier personnellement ("IPI"). Ils ne possèdent qu'un identifiant alphanumérique unique qui se trouve sur votre navigateur. Et dans de nombreux cas, nous ne serons pas en mesure de vous renvoyer les informations que nous recueillons en utilisant un cookie. Ils peuvent toutefois nous permettre de relier ces informations à vous et à vos données personnelles, par exemple lorsque vous vous connectez ou choisissez de vous inscrire à un bulletin d'information.<br>
 
 
 
-Nous pouvons également faire appel à des tiers pour suivre et analyser les données non personnelles et personnellement identifiables du site web et pour diffuser des publicités. Pour ce faire, nous pouvons permettre à des tiers de placer des cookies sur les appareils des utilisateurs de notre site, lorsque la loi le permet et sous réserve de votre droit de vous désengager par le biais du site. Nous utilisons les données collectées pour nous aider à administrer et à améliorer la qualité du site et pour analyser l'utilisation du site. Ces tiers peuvent combiner les informations que nous fournissons à votre sujet avec d'autres informations qu'ils ont recueillies. Ces tiers sont tenus d'utiliser vos informations conformément à la présente politique en matière de cookies et à notre politique de confidentialité. Nous enregistrerons toutes ces divulgations et déploierons des efforts raisonnables pour nous assurer que ces tiers n'utilisent pas vos IPI à des fins qui ne sont pas expressément prévues dans le présent document.
+Nous pouvons également faire appel à des tiers pour suivre et analyser les données non personnelles et personnellement identifiables du site web et pour diffuser des publicités. Pour ce faire, nous pouvons permettre à des tiers de placer des cookies sur les appareils des utilisateurs de notre site, lorsque la loi le permet et sous réserve de votre droit de vous désengager par le biais du site. Nous utilisons les données collectées pour nous aider à administrer et à améliorer la qualité du site et pour analyser l'utilisation du site. Ces tiers peuvent combiner les informations que nous fournissons à votre sujet avec d'autres informations qu'ils ont recueillies. Ces tiers sont tenus d'utiliser vos informations conformément à la présente politique en matière de cookies et à notre politique de confidentialité. Nous enregistrerons toutes ces divulgations et déploierons des efforts raisonnables pour nous assurer que ces tiers n'utilisent pas vos IPI à des fins qui ne sont pas expressément prévues dans le présent document.<br>
 
 
 
-Nous avons classé nos cookies dans les catégories ou "types" suivants, afin de vous permettre de comprendre plus facilement pourquoi nous en avons besoin :
+Nous avons classé nos cookies dans les catégories ou "types" suivants, afin de vous permettre de comprendre plus facilement pourquoi nous en avons besoin :<br>
 
 
 
-Essentiel - Ces cookies sont essentiels pour vous fournir nos services et vous permettre d'utiliser certaines de ses fonctionnalités sur le site. Par exemple, ils vous permettent de vous connecter à des zones sécurisées de notre site et aident à charger rapidement le contenu des pages que vous demandez. Sans ces cookies, les services que vous avez demandés ne peuvent pas être fournis et nous utilisons ces cookies uniquement pour vous fournir ces services.
+Essentiel - Ces cookies sont essentiels pour vous fournir nos services et vous permettre d'utiliser certaines de ses fonctionnalités sur le site. Par exemple, ils vous permettent de vous connecter à des zones sécurisées de notre site et aident à charger rapidement le contenu des pages que vous demandez. Sans ces cookies, les services que vous avez demandés ne peuvent pas être fournis et nous utilisons ces cookies uniquement pour vous fournir ces services.<br>
 
-Analyse et performance - Ces cookies sont utilisés pour collecter des informations sur le trafic sur notre site et les services et sur la façon dont les utilisateurs utilisent notre site. Les informations recueillies ne permettent pas d'identifier un visiteur en particulier. Les informations sont agrégées et donc anonymes. Elles comprennent le nombre de visiteurs de notre site, les sites web qui les ont dirigés vers notre site, les pages qu'ils ont visitées, l'heure à laquelle ils ont visité le site, s'ils ont déjà visité le site auparavant et d'autres informations similaires. Nous utilisons ces informations pour nous aider à exploiter nos services de manière plus efficace, pour recueillir des informations démographiques générales et pour contrôler le niveau d'activité de nos services. Nous utilisons Google Analytics à cette fin - Google Analytics utilise ses propres cookies pour améliorer le fonctionnement de nos Services.
+Analyse et performance - Ces cookies sont utilisés pour collecter des informations sur le trafic sur notre site et les services et sur la façon dont les utilisateurs utilisent notre site. Les informations recueillies ne permettent pas d'identifier un visiteur en particulier. Les informations sont agrégées et donc anonymes. Elles comprennent le nombre de visiteurs de notre site, les sites web qui les ont dirigés vers notre site, les pages qu'ils ont visitées, l'heure à laquelle ils ont visité le site, s'ils ont déjà visité le site auparavant et d'autres informations similaires. Nous utilisons ces informations pour nous aider à exploiter nos services de manière plus efficace, pour recueillir des informations démographiques générales et pour contrôler le niveau d'activité de nos services. Nous utilisons Google Analytics à cette fin - Google Analytics utilise ses propres cookies pour améliorer le fonctionnement de nos Services.<br>
 
-Fonctionnalité - Ces cookies permettent à notre Site de se souvenir des choix que vous faites lorsque vous utilisez nos Services, comme par exemple la mémorisation de vos préférences linguistiques et la mémorisation des modifications que vous apportez à d'autres parties de nos Sites ou Services que vous pouvez personnaliser. L'objectif de ces cookies est de vous offrir une expérience plus personnelle et de vous éviter de devoir saisir à nouveau vos préférences chaque fois que vous visitez notre site.
+Fonctionnalité - Ces cookies permettent à notre Site de se souvenir des choix que vous faites lorsque vous utilisez nos Services, comme par exemple la mémorisation de vos préférences linguistiques et la mémorisation des modifications que vous apportez à d'autres parties de nos Sites ou Services que vous pouvez personnaliser. L'objectif de ces cookies est de vous offrir une expérience plus personnelle et de vous éviter de devoir saisir à nouveau vos préférences chaque fois que vous visitez notre site.<br>
 
-Cookies des médias sociaux - Ces cookies sont utilisés lorsque vous partagez des informations en utilisant un bouton de partage des médias sociaux ou un bouton "J'aime" sur nos services ou lorsque vous établissez un lien entre votre compte ou notre contenu sur ou via un site de réseau social tel que Facebook, Instagram ou Twitter. Le réseau social enregistrera que vous avez fait cela.
+Cookies des médias sociaux - Ces cookies sont utilisés lorsque vous partagez des informations en utilisant un bouton de partage des médias sociaux ou un bouton "J'aime" sur nos services ou lorsque vous établissez un lien entre votre compte ou notre contenu sur ou via un site de réseau social tel que Facebook, Instagram ou Twitter. Le réseau social enregistrera que vous avez fait cela.<br>
 
-Ciblage et publicité - Ils sont utilisés pour partager certaines informations avec les tiers avec lesquels nous faisons de la publicité, afin que nous sachions comment vous avez atteint notre site. Nous pouvons également utiliser des cookies pour identifier les parties du site qui vous intéressent. Nous utilisons ensuite ces informations pour vous montrer des publicités et des pages qui, selon nous, pourraient également vous intéresser, pour adapter notre façon de communiquer avec vous ou pour adapter le contenu des communications que nous vous envoyons. Si vous le préférez, vous pouvez choisir de ne pas participer à ces communications. L'adaptation du contenu signifie qu'il comprend des informations reflétant l'intérêt que vous avez manifesté pour le contenu de nos pages web ou pour les offres ou promotions qui, selon nous, pourraient vous intéresser, et pour améliorer la façon dont nous répondons à vos besoins.
+Ciblage et publicité - Ils sont utilisés pour partager certaines informations avec les tiers avec lesquels nous faisons de la publicité, afin que nous sachions comment vous avez atteint notre site. Nous pouvons également utiliser des cookies pour identifier les parties du site qui vous intéressent. Nous utilisons ensuite ces informations pour vous montrer des publicités et des pages qui, selon nous, pourraient également vous intéresser, pour adapter notre façon de communiquer avec vous ou pour adapter le contenu des communications que nous vous envoyons. Si vous le préférez, vous pouvez choisir de ne pas participer à ces communications. L'adaptation du contenu signifie qu'il comprend des informations reflétant l'intérêt que vous avez manifesté pour le contenu de nos pages web ou pour les offres ou promotions qui, selon nous, pourraient vous intéresser, et pour améliorer la façon dont nous répondons à vos besoins.<br>
 
 
-En plus des cookies que nous utilisons sur notre site, nous utilisons également des cookies et des technologies similaires dans certains courriers électroniques et notifications que nous vous envoyons. Ils nous aident à comprendre si vous avez ouvert le courriel et comment vous avez interagi avec lui. Si vous avez activé les images, des cookies peuvent être placés sur votre ordinateur ou votre appareil mobile. Des cookies seront également placés si vous cliquez sur un lien dans le courriel.
+En plus des cookies que nous utilisons sur notre site, nous utilisons également des cookies et des technologies similaires dans certains courriers électroniques et notifications que nous vous envoyons. Ils nous aident à comprendre si vous avez ouvert le courriel et comment vous avez interagi avec lui. Si vous avez activé les images, des cookies peuvent être placés sur votre ordinateur ou votre appareil mobile. Des cookies seront également placés si vous cliquez sur un lien dans le courriel.<br>
 
 
 
-Les cookies et vous
+Les cookies et vous<br>
 
 
 
-Pour vous inscrire à des informations ou services avec BON, vous devez avoir activé les cookies sur votre navigateur internet. Certains des navigateurs les plus populaires (et les liens pour gérer vos cookies sur chacun d'eux) le sont :
+Pour vous inscrire à des informations ou services avec BON, vous devez avoir activé les cookies sur votre navigateur internet. Certains des navigateurs les plus populaires (et les liens pour gérer vos cookies sur chacun d'eux) le sont :<br>
 
 
 
-Internet Explorer
+Internet Explorer<br>
 
-Firefox
+Firefox<br>
 
-Safari
+Safari<br>
 
-Google Chrome
+Google Chrome<br>
 
-Brave
+Brave<br>
 
 
 
-Vérifiez que votre navigateur et votre appareil sont corrects et à jour. Si vous choisissez de ne pas activer les cookies, vous pourrez toujours naviguer sur notre site, mais cela restreindra certaines des fonctionnalités de notre site et ce que vous pourrez faire. Toutefois, vous pouvez autoriser les cookies de certains sites web en les faisant passer pour des "sites de confiance" dans votre navigateur.
+Vérifiez que votre navigateur et votre appareil sont corrects et à jour. Si vous choisissez de ne pas activer les cookies, vous pourrez toujours naviguer sur notre site, mais cela restreindra certaines des fonctionnalités de notre site et ce que vous pourrez faire. Toutefois, vous pouvez autoriser les cookies de certains sites web en les faisant passer pour des "sites de confiance" dans votre navigateur.<br>
 
 
 
-Contrôle de vos cookies
+Contrôle de vos cookies<br>
 
 
 
-Vous pouvez configurer votre navigateur web pour qu'il vous avertisse lorsqu'un cookie est utilisé. Vous pouvez également obtenir des informations sur la durée du cookie et sur le serveur vers lequel vos données sont renvoyées. Vous pouvez ensuite accepter ou refuser le cookie. En outre, vous pouvez configurer votre navigateur pour qu'il refuse tous les cookies ou n'accepte que les cookies renvoyés aux serveurs d'origine.
+Vous pouvez configurer votre navigateur web pour qu'il vous avertisse lorsqu'un cookie est utilisé. Vous pouvez également obtenir des informations sur la durée du cookie et sur le serveur vers lequel vos données sont renvoyées. Vous pouvez ensuite accepter ou refuser le cookie. En outre, vous pouvez configurer votre navigateur pour qu'il refuse tous les cookies ou n'accepte que les cookies renvoyés aux serveurs d'origine.<br>
 
 
 
-Vous pouvez accepter ou refuser les cookies à tout moment - à l'exception des cookies essentiels (qui sont utilisés pour permettre à notre site web de fonctionner efficacement). Vous pouvez activer ou désactiver les cookies dans votre navigateur. Si vous souhaitez limiter ou bloquer les cookies définis par un site web - y compris le présent site web - vous pouvez le faire en paramétrant le navigateur web pour chaque navigateur web que vous utilisez, sur chaque appareil que vous utilisez pour accéder à l'internet.
+Vous pouvez accepter ou refuser les cookies à tout moment - à l'exception des cookies essentiels (qui sont utilisés pour permettre à notre site web de fonctionner efficacement). Vous pouvez activer ou désactiver les cookies dans votre navigateur. Si vous souhaitez limiter ou bloquer les cookies définis par un site web - y compris le présent site web - vous pouvez le faire en paramétrant le navigateur web pour chaque navigateur web que vous utilisez, sur chaque appareil que vous utilisez pour accéder à l'internet.<br>
 
 
 
-Des informations sur le contrôle et la suppression des cookies, y compris sur une grande variété de navigateurs, sont disponibles sur le site allaboutcookies.org.
+Des informations sur le contrôle et la suppression des cookies, y compris sur une grande variété de navigateurs, sont disponibles sur le site allaboutcookies.org.<br>
 
 
 
-Certains services peuvent ne pas fonctionner ou avoir des fonctionnalités plus limitées si votre navigateur web n'accepte pas les cookies.
+Certains services peuvent ne pas fonctionner ou avoir des fonctionnalités plus limitées si votre navigateur web n'accepte pas les cookies.<br>
 
 
 
-En ce qui concerne certains cookies fonctionnant sur notre site, vous pouvez trouver plus d'informations sur les cookies de Google Analytics ici : https://developers.google.com/analytics/resources/concepts/gaConceptsCookies.
+En ce qui concerne certains cookies fonctionnant sur notre site, vous pouvez trouver plus d'informations sur les cookies de Google Analytics ici : https://developers.google.com/analytics/resources/concepts/gaConceptsCookies.<br>
 
 
 
-Vous pouvez en savoir plus sur la manière dont Google protège vos données ici : www.google.com/analytics/learn/privacy.html.
+Vous pouvez en savoir plus sur la manière dont Google protège vos données ici : www.google.com/analytics/learn/privacy.html.<br>
 
 
 
