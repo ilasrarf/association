@@ -83,9 +83,6 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
             <li class="nav-item">
               <a class="nav-link" href="#contact"><?php echo $top_nav[$language]['5']?></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="politique.php">politique</a>
-            </li>
              <!--Dropdown 2-->
             <div class="dropdown nav-item mx-0 ">
               <button class="btn globe2 rounded-pill  dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-globe2"></i> </button>
@@ -231,7 +228,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
       <div class="container-fluid p-0">
         <h2 class="text-center mt-0"><?php echo $portfolio[$language]['0']?></h2>
         <hr class="divider" />
-	<!-- Photos-->
+	    <!-- Photos-->
         <div class="row g-0">
           <div class="col-lg-4 col-sm-6">
             <a
@@ -697,7 +694,16 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
                   <a href="https://www.facebook.com/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%AE%D8%B7%D9%88%D8%A9-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D9%82%D9%8A%D9%86-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B1%D9%83%D8%A9-636736269826415/" class="snip1472"><i class="bi bi-facebook" style="position: absolute;top: 12px;left:13px;"></i></i></a>
                   <a href="" class="snip1472"><i class="bi bi-instagram" style="position: absolute;top: 12px;left:13px;"></i></a>
               </div><!--.col-->
-          </div><!--.row-->
+          </div><!--Privacy-->
+          <div class="pages d-flex justify-content-between" style="margin: 0 auto; padding-top: 1.2rem; text-transform: capitalize; max-width: 458px;">
+            <div class="pages_internal">
+                <a class="px-1" href="politique1.php"><?php echo $Privacy[$language]['0']?></a>
+                <a class="px-1" href="politique3.php"><?php echo $Privacy[$language]['2']?></a>
+            </div>
+            <div class="copyright">
+                <p><?php echo $Privacy[$language]['3']?> © 2021</p>
+            </div>
+        </div>
       </div>
   </section>
     <!-- footee end -->

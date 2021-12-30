@@ -230,58 +230,18 @@ $button_to_up=array(
 	'fr'=>array('bottom-0 start-0 m-4')
 );
 
+$politique=array(
+
+	'ar'=>array("PRIVACY POLICY","COOKIES POLICY","USE TERMS"),
+	'fr'=>array("PRIVACY POLICY","COOKIES POLICY","USE TERMS")
+	
+
+);
+$Privacy=array(
+
+	
+	'ar'=>array("سياسة الخصوصية","اتفاقية ملفات تعريف الارتباط","شروط الاستخدام","جميع الحقوق محفوظة"),
+	'fr'=>array("Privacy Policy","Cookies policy","Use Terms","Tous droits réservés")
+);
+
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

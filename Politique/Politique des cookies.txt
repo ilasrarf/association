@@ -115,25 +115,25 @@ En ce qui concerne certains cookies fonctionnant sur notre site, vous pouvez tro
 
 
 
-Vous pouvez en savoir plus sur la manière dont Google protège vos données ici : www.google.com/analytics/learn/privacy.html.<br>
+Vous pouvez en savoir plus sur la manière dont Google protège vos données ici : <br>www.google.com/analytics/learn/privacy.html.<br>
 
 
 
-Vous pouvez empêcher l'utilisation de Google Analytics relative à votre utilisation de nos services en téléchargeant et en installant le plugin de votre navigateur disponible via ce lien : http://tools.google.com/dlpage/gaoptout?hl=en-GB.
+Vous pouvez empêcher l'utilisation de Google Analytics relative à votre utilisation de nos services en téléchargeant et en installant le plugin de votre navigateur disponible via ce lien : http://tools.google.com/dlpage/gaoptout?hl=en-GB.<br>
 
 
 
-Les cookies Flash peuvent être ajustés à l'adresse suivante : http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager.html. Si vous choisissez de régler les paramètres de confidentialité de Flash sur votre appareil, certaines fonctions des Services peuvent ne pas fonctionner correctement.
+Les cookies Flash peuvent être ajustés à l'adresse suivante : <br>http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager.html. Si vous choisissez de régler les paramètres de confidentialité de Flash sur votre appareil, certaines fonctions des Services peuvent ne pas fonctionner correctement.<br>
 
 
 
-Si vous souhaitez refuser les cookies sur différents réseaux de publicité, le site web de la Network Advertising Initiative (initiative de publicité en réseau) propose des informations et des conseils supplémentaires à l'adresse www.networkadvertising.org. Vous pouvez également désactiver les cookies qui se souviennent de vos habitudes de navigation et cibler la publicité sur vous en visitant le site http://www.youronlinechoices.com/uk/your-ad-choices. Pour vous désengager de la publicité ciblée de LiveRamp, veuillez vous rendre à l'adresse suivante : https://liveramp.com/opt_out/.
+Si vous souhaitez refuser les cookies sur différents réseaux de publicité, le site web de la Network Advertising Initiative (initiative de publicité en réseau) propose des informations et des conseils supplémentaires à l'adresse www.networkadvertising.org. Vous pouvez également désactiver les cookies qui se souviennent de vos habitudes de navigation et cibler la publicité sur vous en visitant le site http://www.youronlinechoices.com/uk/your-ad-choices. Pour vous désengager de la publicité ciblée de LiveRamp, veuillez vous rendre à l'adresse suivante : <br>https://liveramp.com/opt_out/.<br>
 
 
 
-Si vous choisissez de supprimer les cookies ciblés ou publicitaires, vous verrez toujours des publicités, mais elles peuvent ne pas être pertinentes pour vous. Même si vous choisissez de supprimer les cookies des entreprises figurant sur les liens ci-dessus, toutes les entreprises qui diffusent des publicités comportementales en ligne ne sont pas incluses dans cette liste, et il se peut donc que vous receviez encore certains cookies et des publicités personnalisées d'entreprises qui ne figurent pas sur la liste.  
+Si vous choisissez de supprimer les cookies ciblés ou publicitaires, vous verrez toujours des publicités, mais elles peuvent ne pas être pertinentes pour vous. Même si vous choisissez de supprimer les cookies des entreprises figurant sur les liens ci-dessus, toutes les entreprises qui diffusent des publicités comportementales en ligne ne sont pas incluses dans cette liste, et il se peut donc que vous receviez encore certains cookies et des publicités personnalisées d'entreprises qui ne figurent pas sur la liste.  <br>
 
 
-Politique des cookies
+Politique des cookies<br>
 
-Si vous ne souhaitez pas accepter les cookies de l'un de nos courriers électroniques, vous pouvez choisir de ne pas télécharger d'images ou de ne cliquer sur aucun lien. Vous pouvez également configurer votre navigateur de manière à limiter les cookies ou à les rejeter entièrement. Ces paramètres s'appliqueront à tous les cookies, qu'ils soient inclus sur les sites web ou dans les courriels. En fonction de votre adresse électronique ou des paramètres de votre navigateur, les cookies contenus dans un courrier électronique peuvent parfois être automatiquement acceptés (par exemple, lorsque vous avez ajouté une adresse électronique à votre carnet d'adresses ou à votre liste d'expéditeurs sûrs). Pour plus d'informations, reportez-vous aux instructions de votre navigateur ou de votre appareil de messagerie électronique. ︎
+Si vous ne souhaitez pas accepter les cookies de l'un de nos courriers électroniques, vous pouvez choisir de ne pas télécharger d'images ou de ne cliquer sur aucun lien. Vous pouvez également configurer votre navigateur de manière à limiter les cookies ou à les rejeter entièrement. Ces paramètres s'appliqueront à tous les cookies, qu'ils soient inclus sur les sites web ou dans les courriels. En fonction de votre adresse électronique ou des paramètres de votre navigateur, les cookies contenus dans un courrier électronique peuvent parfois être automatiquement acceptés (par exemple, lorsque vous avez ajouté une adresse électronique à votre carnet d'adresses ou à votre liste d'expéditeurs sûrs). Pour plus d'informations, reportez-vous aux instructions de votre navigateur ou de votre appareil de messagerie électronique. ︎<br>
