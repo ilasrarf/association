@@ -1,4 +1,9 @@
 <?php
+$titel_association=array(
+	'ar'=>array('جمعية خطوة للأشخاص في وضعية إعاقة'),
+	'fr'=>array("ASSOCIATION KHOUTWA POUR LES PERSONNES EN SITUATION D'HANDICAPE")
+
+);
 $top_nav=array(
     'ar'=>array('الرئسية',
 				'من نحن',
@@ -13,13 +18,21 @@ $top_nav=array(
 				'Faire un don',
 				'Contactez-nous')
 );
+$dropdown=array(
+	'ar'=>array('العربية','الفرنسية'),
+	'fr'=>array('Arabe','Français')
+);
 $deriction=array(
 	'ar'=>array('auto'),
 	'fr'=>array('auto')
 );
+$footer_dir=array(
+	'ar'=>array('rtl'),
+	'fr'=>array('ltr')
+);
 $top_nav_language=array(
 	'ar'=>array('اللغة'),
-	'fr'=>array('Language')
+	'fr'=>array('Langue')
 );
 
 $button1=array(
@@ -207,13 +220,28 @@ $contact=array(
 $footer=array(
     'ar'=>array('نبذة مختصرة',
 				'جمعية خطوة للمعاقين الدراركة جمعية فتية اسست يوم 10 شتنبر 2016 من طرف مجموعة من الشباب منهم ذوي الاحتياجات للدفاع عن حقوقهم وابراز ذاتهم',
-				'للتواصل معنا'),
-    'fr'=>array("Bref résumé",
-				"Association Khatwa pour les handicapés et les ténèbres",
-				"pour nous contacter")
+				'للتواصل معنا','الجماعة الترابية الدراركة، قيادة الدراكة جهة سوس ماسة، عمالة أكادير إداوتنان'),
+    'fr'=>array("BREF RÉSUMÉ",
+				"ASSOCIATION KHOTWA pour les personnes en situation de handicap, fondée le 10 novembre 2016 par un groupe de jeunes ayant besoin de défendre leurs droits et de se mettre en valeur",
+				"POUR NOUS CONTACTER","Commune Territoriale Drarka,Caidat Drarka de la Région Souss-Massa,Préfecture d'Agadir Idda Outanane")
 );
 $button_to_up=array(
 	'ar'=>array('bottom-0 end-0 m-4'),
 	'fr'=>array('bottom-0 start-0 m-4')
 );
+
+$politique=array(
+
+	'ar'=>array("PRIVACY POLICY","COOKIES POLICY","USE TERMS"),
+	'fr'=>array("PRIVACY POLICY","COOKIES POLICY","USE TERMS")
+	
+
+);
+$Privacy=array(
+
+	
+	'ar'=>array("سياسة الخصوصية","اتفاقية ملفات تعريف الارتباط","شروط الاستخدام","جميع الحقوق محفوظة"),
+	'fr'=>array("Privacy Policy","Cookies policy","Use Terms","Tous droits réservés")
+);
+
 ?>

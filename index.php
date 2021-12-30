@@ -16,7 +16,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>جمعية</title>
+    <title><?php echo $titel_association[$language]['0']?></title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
     <!-- Bootstrap Icons-->
@@ -64,7 +64,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+          <ul class="navbar-nav ms-0 my-2 my-lg-0 ml-lg-auto align-items-start align-items-lg-center">
             <li class="nav-item">
               <a class="nav-link" href="#"><?php echo $top_nav[$language]['0']?></a>
             </li>
@@ -83,14 +83,18 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
             <li class="nav-item">
               <a class="nav-link" href="#contact"><?php echo $top_nav[$language]['5']?></a>
             </li>
-            <li class="nav-item">
-            <a class="nav-link"><?php echo $top_nav_language[$language]['0']?>
-              <select onchange="set_language() " name="language" id="language">
-                <option value="ar" <?php echo $ar_select?>>Ar</option>
-                <option value="fr" <?php echo $fr_select?>>Fr</option>
-              </select></a>
-            </li>
+             <!--Dropdown 2-->
+            <div class="dropdown nav-item mx-0 ">
+              <button class="btn globe2 rounded-pill  dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i class="bi bi-globe2"></i> </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" 
+              onchange="set_language() " name="language" id="language">
+              <li><a href="?language=ar" class="dropdown-item text-center" ><img src="assets/img/morocco.png"> <?php echo $dropdown[$language]['0']?></a></li>
+              <li><a href="?language=fr" class="dropdown-item text-center" ><img src="assets/img/france.png"> <?php echo $dropdown[$language]['1']?></a></li>
+            </ul>
+          </div>
+          <!--fin dropdown 2-->
           </ul>
+         
         </div>
       </div>
     </nav>
@@ -224,7 +228,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
       <div class="container-fluid p-0">
         <h2 class="text-center mt-0"><?php echo $portfolio[$language]['0']?></h2>
         <hr class="divider" />
-	<!-- Photos-->
+	    <!-- Photos-->
         <div class="row g-0">
           <div class="col-lg-4 col-sm-6">
             <a
@@ -545,14 +549,6 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
         </div>
         <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
           <div class="col-lg-6">
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
-            	
             <form id="contactForm" data-sb-form-api-token="API_TOKEN">
               <!-- Name input-->
               <div class="form-floating mb-3">
@@ -652,13 +648,13 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
     </section>
     <!-- Footer-->
     <section class="container-fluid sec-footer">
-      <div class="container">
+      <div class="container" dir="<?php echo $footer_dir[$language]['0']?>">
           <div class="row">
               <div class="col">
                   <div class="card desc-box my-4">
                       <div class="card-body">
-                          <div class="card-title"><?php echo $footer[$language]['0']?></div>
-                          <div class="card-text">
+                          <div class="card-title text-center"><?php echo $footer[$language]['0']?></div>
+                          <div class="card-text" dir="<?php echo $footer_dir[$language]['0']?>">
                             <?php echo $footer[$language]['1']?>
                           </div>
                       </div>
@@ -667,8 +663,8 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
               <div class="col">
                   <div class="card desc-box my-4">
                       <div class="card-body">
-                          <div class="card-title"><?php echo $footer[$language]['2']?></div>
-                          <div class="card-text">
+                          <div class="card-title text-center"><?php echo $footer[$language]['2']?></div>
+                          <div class="card-text" dir="<?php echo $footer_dir[$language]['0']?>">
                               <div class="row">
                                   <div class="col">
                                     <i class="bi bi-telephone-fill"></i>
@@ -678,13 +674,13 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
                               <div class="row">
                                   <div class="col">
                                     <i class="bi bi-geo-alt-fill"></i>
-                                      <span>الجماعة الترابية الدراركة، قيادة الدراكة جهة سوس ماسة، عمالة أكادير إداوتنان</span>
+                                      <span><?php echo $footer[$language]['3']?></span>
                                   </div><!--.col-->
                               </div><!--.row-->
                               <div class="row">
                                   <div class="col">
                                     <i class="bi bi-envelope-fill"></i>
-                                      <span>info@dsdsdsds.ir</span>
+                                      <span>siham.trainer@gmail.com</span>
                                   </div><!--.col-->
                               </div><!--.row-->
                           </div><!--.card-text-->
@@ -693,12 +689,21 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
               </div><!--.col-->
               <div class="col text-center my-5">
                   <h5>جمعية خطوة للأشخاص في وضعية إعاقة</h5>
-                  <h5>Association Khatwa pour les personnes handicapées</h5>
+                  <h5>ASSOCIATION KHOUTWA POUR LES PERSONNES EN SITUATION D'HANDICAPE</h5>
                   <br class="clearfix">
                   <a href="https://www.facebook.com/%D8%AC%D9%85%D8%B9%D9%8A%D8%A9-%D8%AE%D8%B7%D9%88%D8%A9-%D9%84%D9%84%D9%85%D8%B9%D8%A7%D9%82%D9%8A%D9%86-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B1%D9%83%D8%A9-636736269826415/" class="snip1472"><i class="bi bi-facebook" style="position: absolute;top: 12px;left:13px;"></i></i></a>
                   <a href="" class="snip1472"><i class="bi bi-instagram" style="position: absolute;top: 12px;left:13px;"></i></a>
               </div><!--.col-->
-          </div><!--.row-->
+          </div><!--Privacy-->
+          <div class="pages d-flex justify-content-between" style="margin: 0 auto; padding-top: 1.2rem; text-transform: capitalize; max-width: 458px;">
+            <div class="pages_internal">
+                <a class="px-1" href="politique1.php"><?php echo $Privacy[$language]['0']?></a>
+                <a class="px-1" href="politique3.php"><?php echo $Privacy[$language]['2']?></a>
+            </div>
+            <div class="copyright">
+                <p><?php echo $Privacy[$language]['3']?> © 2021</p>
+            </div>
+        </div>
       </div>
   </section>
     <!-- footee end -->
@@ -756,7 +761,7 @@ if ((isset($_GET['language']) && $_GET['language']=='ar') || !isset($_GET['langu
       }
       function set_language() {
         var language=jQuery('#language').val();
-        window.location.href='http://localhost/association/index.php?language='+language;
+        window.location.href='https://assosiation-hkoutwa.herokuapp.com/?language='+language;
       }
     </script>
   </body>
